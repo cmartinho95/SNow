@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="user_rating_of_title" table="x_301820_myexp_2018_in_film" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>user_rating_of_title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 star</label>
+            <language>en</language>
+            <name>x_301820_myexp_2018_in_film</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-16 19:49:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c5c29634f522300b7ee0fbf9310c70e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-16 19:49:23</sys_updated_on>
+            <value>one_star</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>user_rating_of_title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 stars</label>
+            <language>en</language>
+            <name>x_301820_myexp_2018_in_film</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-16 19:49:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>885c29634f522300b7ee0fbf9310c70f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-16 19:49:23</sys_updated_on>
+            <value>two_stars</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>user_rating_of_title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 stars</label>
+            <language>en</language>
+            <name>x_301820_myexp_2018_in_film</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-16 19:49:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>085c29634f522300b7ee0fbf9310c710</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-16 19:49:23</sys_updated_on>
+            <value>three_stars</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>user_rating_of_title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 stars</label>
+            <language>en</language>
+            <name>x_301820_myexp_2018_in_film</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-16 19:49:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>845c29634f522300b7ee0fbf9310c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-16 19:49:23</sys_updated_on>
+            <value>four_stars</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>user_rating_of_title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5 stars</label>
+            <language>en</language>
+            <name>x_301820_myexp_2018_in_film</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-16 19:49:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>045c29634f522300b7ee0fbf9310c712</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-16 19:49:23</sys_updated_on>
+            <value>five_stars</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>user_rating_of_title</element>
+            <name>x_301820_myexp_2018_in_film</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-16 19:42:42</sys_created_on>
+            <sys_id>c6ca69234f522300b7ee0fbf9310c7e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>user_rating_of_title</sys_name>
+            <sys_package display_value="MyExperiment" source="x_301820_myexp">21d919e34f122300b7ee0fbf9310c783</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MyExperiment">21d919e34f122300b7ee0fbf9310c783</sys_scope>
+            <sys_update_name>sys_choice_x_301820_myexp_2018_in_film_user_rating_of_title</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-16 19:42:42</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="2018 in film" max_length="40" name="x_301820_myexp_2018_in_film" type="collection">
+        <element hint="First name" label="Added by" mandatory="true" max_length="30" name="added_by" type="string"/>
+        <element label="Film title" mandatory="true" max_length="70" name="film_title" type="string"/>
+        <element attributes="format=none" display="true" hint="(code found in title's IMDb URL following tt, e.g. 0101272)" label="IMDb code" mandatory="true" max_length="40" name="imdb_title_code" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Do you consider yourself a cinephile?" mandatory="true" max_length="40" name="is_user_cinephile" type="boolean">
+            <choice>
+                <element inactive_on_update="false" label="No" value="No"/>
+                <element inactive_on_update="false" label="Yes" value="Yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="2" hint="Select your department within the company" label="Department" mandatory="true" max_length="50" name="user_department" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Operations" sequence="0" value="Operations"/>
+                <element inactive_on_update="false" label="Management" sequence="1" value="Management"/>
+                <element inactive_on_update="false" label="Customer Care" sequence="2" value="Customer Care"/>
+                <element inactive_on_update="false" label="Marketing" sequence="3" value="Marketing"/>
+                <element inactive_on_update="false" label="Sales" sequence="4" value="Sales"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="one_star" hint="(5 means you loved it, 1 means you hated it)" label="Rating" mandatory="true" max_length="40" name="user_rating_of_title" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1 star" sequence="0" value="one_star"/>
+                <element inactive_on_update="false" label="2 stars" sequence="1" value="two_stars"/>
+                <element inactive_on_update="false" label="3 stars" sequence="2" value="three_stars"/>
+                <element inactive_on_update="false" label="4 stars" sequence="3" value="four_stars"/>
+                <element inactive_on_update="false" label="5 stars" sequence="4" value="five_stars"/>
+            </choice>
+        </element>
+        <element label="Year of release" mandatory="true" max_length="4" name="year_of_release" type="string"/>
+    </element>
+</database>
